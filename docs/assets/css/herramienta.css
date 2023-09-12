@@ -1,0 +1,143 @@
+
+
+
+#secdatosg {
+    display: flex;  
+    min-height: 150px;
+    height: fit-content;  
+   background: #ffffff;
+   width: 95%;
+   min-width: 900px;     
+   position: relative;  
+   margin: 0 auto; 
+   margin-top: 75px;
+   padding: 8px;
+   border: solid 1px rgba(110, 110, 110, 0.2); 
+   justify-content: center;  
+}
+
+#secdatosg h1 {
+    color: #ff0000;  
+}
+
+
+#secatalog {       
+   position: relative;
+   margin: 0 auto;
+   margin-top: 14px; 
+   margin-bottom: 12px;  
+    height: auto;  
+    width: 95%;
+    min-width: 900px;
+    background: #fff;       
+}
+
+#presglobtit {
+    width: auto;
+    height: 4%;
+    background: #a9cde0;      
+    display: flex;
+    justify-content: center;
+    padding: 0.7%;    
+    border: solid 1px rgba(110, 110, 110, 0.1);    /*--pend-*/
+}
+
+#pressg {
+    width: 80%;
+    height: auto;
+    top: 50%;
+    text-align: center;           
+}
+
+
+/*--------- tabla -------------*/
+#divtabcata {
+    padding: 0px;    
+    width: 100%;
+    min-height: 360px;  
+       
+}
+
+.tabtitcat {
+    font-size: 12px;
+    text-align: center;  
+    border-collapse: collapse;
+    width: 100%;  
+    table-layout: auto; 
+}
+
+/*------ancho columnas tabla catalogo------*/
+ 
+.tabtitcat td:first-child {  width: 6%; }
+.tabtitcat td:nth-child(2) {  width: 7%; max-width: 90px;}
+.tabtitcat td:nth-child(3) {  width: 44%; max-width: 300px; }
+.tabtitcat td:nth-child(4) {  width: 7%; }
+.tabtitcat td:nth-child(5) {  width: 10%; }
+.tabtitcat td:nth-child(6) {  width: 7%; }
+.tabtitcat td:last-child {  width: 19%;  max-width: 200px;} 
+
+/*-----------------------------*/
+
+#titabtar  {
+    position: relative;
+}
+
+#encab_tabl td {
+    padding: 7px 7px ;    
+    color: #ffffff;
+    background-color: #12577c;   
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#titulotabcat  {
+    position: relative;
+}
+
+#titulotabcat th {
+    padding: 7px 7px ;
+    color: #ffffff;
+    background-color: #12577c;
+}
+
+/*--------------estilo gral de tabla----------------*/ 
+
+.tabtitcat th {
+    padding: 7px 7px ;
+    color: black;
+    background: #d0e2ec;  
+    border: solid 1px rgba(110, 110, 110, 0.3);
+}
+
+.tabtitcat td {
+    padding: 7px 7px ;  
+    border: solid 1px rgba(110, 110, 110, 0.3);  
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.tag {  
+    cursor: pointer;   
+}
+
+.tag:hover {
+    background: rgba(145, 145, 145, 0.301);    
+    border:1px solid #3838389d;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+

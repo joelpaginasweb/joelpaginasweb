@@ -1,0 +1,22 @@
+
+
+/*--------footer---------*/
+
+footer {      
+    height: 20px; 
+    position: relative;    
+   bottom: 0;
+   width: 100%;
+}
+ 
+#divfooter {  
+     position: relative;
+     padding: 5px;
+     height: 20px;    
+     color: #fcf8f8;
+    
+     background: rgba(29, 38, 53, 1);
+     text-align: center;     
+}
+
+
